@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 85vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.navbar h1 span {
+  margin: 0;
+  font-size: 18px;
+  color: #3b2f8d;
+}
+
+.bold {
+  font-weight: 700;
+}
+.boldMax {
+  font-weight: 800;
+  color: rgb(28, 11, 87);
+}
+.boldMini {
+  font-weight: 500;
+  color: rgb(163, 92, 41);
+}
+.searchBox {
+  width: 50%;
+}
+
+.searchBox input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+.collegeListWrapper {
+  overflow-x: auto;
+
+  a{
+    text-decoration: none;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #0b0b0b;
+  }
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: left;
+  }
+  th {
+    background-color: #000000;
+    color: #bdbbbb;
+    cursor: pointer;
+  }
+  th:hover {
+    background-color: #1c1c1c;
+  }
+  tbody tr:hover {
+    background-color: #bdbbbb;
+  }
+}
+
+.badge {
+  display: block;
+  margin-top: -12px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 10px;
+  font-size: 15px;
+}
