@@ -5,6 +5,8 @@ import LoadingRow from "./LoadingRow";
 import TableFooter from "./TableFooter";
 import TableHeader from "./TableHeader";
 
+import collegeData from "../../dummyCollegesData";
+
 const CollegesTable = () => {
   const [colleges, setColleges] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -17,9 +19,9 @@ const CollegesTable = () => {
     const fetchColleges = async () => {
       setIsLoading(true);
       try {
-        const response = await fetch("DummycollegesData.json");
-        const data = await response.json();
-        setColleges(data);
+        // const response = await fetch("DummycollegesData.json");
+        // const data = await response.json();
+        setColleges(collegeData);
       } catch (error) {
         console.error("Error fetching colleges:", error);
       } finally {

@@ -1,4 +1,4 @@
-[
+const collegeData = [
   {
     "Cd": 1,
     "name": "Indian Institute of Technology Bombay",
@@ -390,3 +390,5 @@
     "featured": false
   }
 ]
+
+export default collegeData;
