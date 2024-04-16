@@ -3,7 +3,7 @@ React application that displays a table of colleges with various features and fu
 
 ## Tech stack 
 1. **React JS** for functanlity and logic handling
-2. 2. **CSS** for styling
+2. **CSS** for styling
 
 ## Features as per Requirements 
 1. **Table Layout**: The project creates a table layout to display college data, including fields like CD Rank, Colleges, Course Fees, Placements, User Reviews, and Ranking.
