@@ -1,5 +1,5 @@
 # CollegeDuniya.edu 🏫 
-This project is a React application that displays a table of colleges with various features and functionalities. 
+React application that displays a table of colleges with various features and functionalities. 
 
 ## Tech stack 
 1. **React JS** for functanlity and logic handling
