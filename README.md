@@ -1,4 +1,4 @@
-# CollegeDuniya.edu 🏫 
+# CollegeDuniya.edu 🏫 - [collegeDuniya.edu](https://college-duniya-614kp01n3-vinayaks-projects-e13254d7.vercel.app/)
 React application that displays a table of colleges with various features and functionalities. 
 
 ## Tech stack 
